@@ -1,0 +1,95 @@
+<!-- Atalhos para VC Code-->
+<!-- ! + Enter montar um HTML-->
+<!-- Ctrl + ; é um atalho para comentar uma linha-->
+<!-- Ctrl + Shift + R é um atalho para um Hard Reload-->
+<!-- Ctrl + Shift + P depois shortcut.. exibe uma lista de atalhos do VSCode-->
+
+
+<!-- <HTML></HTML> Isso é uma Tag HTML-->
+<!--Na tag Head tem que vim todas as Configurações do Documento-->
+<!--Todo conteúdo visivel da página, deverá vir na tag Body-->
+    <!--HTML - É uma linguagem de Marcação de Texto
+        HiperText
+            HiperTexto
+            <a>
+        Markup
+            Marcação
+        Language
+            Linguagem 
+        -->
+        <!--Atalho - Ctrl + B oculta o Explorer-->
+<!DOCTYPE html>
+<html lang="pt_br"> <!--lang é um atributo-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#8257E5"> 
+    <title>Proffy | Sua plataforma de Estudo Online</title>
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/styles/main.css"> 
+    <link rel="stylesheet" href="/styles/partials/page-landing.css"> 
+   
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;
+    family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+    <!--color é uma propriedade, uma chave ou um atributo, red é um valor-->
+    <!--
+    <style> 
+    /*       
+        CSS - Cascading StyleSheet (Folha de Estilo em Cascata)
+        Nível da Cascata:
+        1 - ID
+        2 - Classe
+        3 - Atributo
+        
+        
+         h1{
+            color:green;
+        }
+        #page-landing{
+            color: red; 
+        }
+
+        #page-landing h1 {
+            color:gray;
+        }
+    */   
+    </style>
+    -->
+    
+</head>
+<body id="page-landing">
+    <!-- Atributos Id(#nome do atributo) e Class(.nome do atributo) são globais-->
+    <div id="container">
+        <div class="logo-container">
+        <img src="/images/logo.svg" alt="Proffy">
+        <h2>Sua Plataforma de Estudos Online</h2>
+    </div>
+    <img class="hero-image" src="/images/landing.svg" alt="Plataforma de Estudos">
+       
+        <!-- <p></p>
+            <!- body é pai de p... p é pai de span ->
+            Sua Plataforma de Estudos Online
+        </p> -->
+        
+        <!--tag src é o caminho da imagem, tag alt é uma alternativa quando n tem uma imagem-->
+        
+        <!-- <button>Estudar</button>
+        <button>Dar Aulas</button> -->
+        <div class="buttons-container">
+            <a class="study" href="/study">
+                <img src="/images/icons/study.svg" alt="Estudar">Estudar
+            </a>
+            <a class="give-classes" href="/give-classes">
+                <img src="/images/icons/give-classes.svg" alt="Dar Aulas">Dar Aulas            
+            </a>
+        </div>
+
+        <p class="total-connections">
+            Total de 200 conexões já realizadas
+            <img src="/images/icons/purple-heart.svg" alt="Coração Roxo">
+        </p>
+    </div>
+    
+</body>
+</html>
